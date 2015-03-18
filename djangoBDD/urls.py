@@ -8,3 +8,9 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
 )
+
+from blog.views import quick_test
+ 
+urlpatterns = patterns('',
+    url(r'^quick-test/$', quick_test),
+)
