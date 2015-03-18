@@ -36,6 +36,10 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #authored
+    'blog',	
+    #3r party
+    'lettuce.django',
 )
 
 MIDDLEWARE_CLASSES = (
