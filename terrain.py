@@ -12,6 +12,7 @@ except:
  
 logger = getLogger(__name__)
 logger.info("Loading the terrain file...")
+
  
 @before.runserver
 def setup_database(actual_server):

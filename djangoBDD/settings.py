@@ -1,4 +1,12 @@
+import os.path
+root = os.path.dirname(__file__).replace('\\','/')
+ 
+## Make your TEMPLATE_DIRS variable look like this
+TEMPLATE_DIRS = (
+    root + "/../blog/templates/",
+)
 """
+
 Django settings for djangoBDD project.
 
 For more information on this file, see

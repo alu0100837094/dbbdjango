@@ -4,5 +4,6 @@ Feature: Test
 	I want to write some scenarios
  
 	Scenario: I can view the test page
-		Given I am at "/quick-test/"
+		Given I am at "http://127.0.0.1:9000/quick-test/"
 		Then I should see "Hello testing world!"
+
